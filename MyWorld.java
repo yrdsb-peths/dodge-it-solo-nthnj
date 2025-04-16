@@ -7,7 +7,7 @@ public class MyWorld extends World {
         Hero hero = new Hero();
         addObject(hero, 500, 100);
         
-        Rocket rocket = new Rocket();
-        addObject(rocket, 100, 100);
+        Bomb bomb = new Bomb();
+        addObject(bomb, 100, 100);
     }
 }
